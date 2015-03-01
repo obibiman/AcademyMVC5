@@ -1,0 +1,15 @@
+C:\DotNetApps\Projects\ShinglePursuit\ShinglePursuit.Domain\bin\Debug\ShinglePursuit.Domain.dll
+C:\DotNetApps\Projects\ShinglePursuit\ShinglePursuit.Domain\bin\Debug\ShinglePursuit.Domain.pdb
+C:\DotNetApps\Projects\ShinglePursuit\ShinglePursuit.Domain\obj\Debug\ShinglePursuit.Domain.dll
+C:\DotNetApps\Projects\ShinglePursuit\ShinglePursuit.Domain\obj\Debug\ShinglePursuit.Domain.pdb
+C:\DotNetApps\Projects\ShinglePursuit\ShinglePursuit.Domain\obj\Debug\ShinglePursuit.Domain.csprojResolveAssemblyReference.cache
+C:\DotNetApps\SandBox2015\ShinglePursuit\ShinglePursuit.Domain\obj\Debug\ShinglePursuit.Domain.dll
+C:\DotNetApps\SandBox2015\ShinglePursuit\ShinglePursuit.Domain\obj\Debug\ShinglePursuit.Domain.pdb
+C:\DotNetApps\SandBox2015\ShinglePursuit\ShinglePursuit.Domain\bin\Debug\ShinglePursuit.Domain.dll
+C:\DotNetApps\SandBox2015\ShinglePursuit\ShinglePursuit.Domain\bin\Debug\ShinglePursuit.Domain.pdb
+C:\DotNetApps\SandBox2015\ShinglePursuit\ShinglePursuit.Domain\obj\Debug\ShinglePursuit.Domain.csprojResolveAssemblyReference.cache
+C:\DotNetApps\SpecialProjects\ShinglePursuit\ShinglePursuit.Domain\bin\Debug\ShinglePursuit.Domain.dll
+C:\DotNetApps\SpecialProjects\ShinglePursuit\ShinglePursuit.Domain\bin\Debug\ShinglePursuit.Domain.pdb
+C:\DotNetApps\SpecialProjects\ShinglePursuit\ShinglePursuit.Domain\obj\Debug\ShinglePursuit.Domain.csprojResolveAssemblyReference.cache
+C:\DotNetApps\SpecialProjects\ShinglePursuit\ShinglePursuit.Domain\obj\Debug\ShinglePursuit.Domain.dll
+C:\DotNetApps\SpecialProjects\ShinglePursuit\ShinglePursuit.Domain\obj\Debug\ShinglePursuit.Domain.pdb

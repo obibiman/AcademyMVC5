@@ -1,0 +1,9 @@
+C:\DotNetApps\SpecialProjects\ShinglePursuit\ShinglePursuit.Domain\bin\Debug\Academy.Domain.dll
+C:\DotNetApps\SpecialProjects\ShinglePursuit\ShinglePursuit.Domain\bin\Debug\Academy.Domain.pdb
+C:\DotNetApps\SpecialProjects\ShinglePursuit\ShinglePursuit.Domain\obj\Debug\Academy.Domain.dll
+C:\DotNetApps\SpecialProjects\ShinglePursuit\ShinglePursuit.Domain\obj\Debug\Academy.Domain.pdb
+C:\DotNetApps\SpecialProjects\Academy\Academy.Domain\bin\Debug\Academy.Domain.dll
+C:\DotNetApps\SpecialProjects\Academy\Academy.Domain\bin\Debug\Academy.Domain.pdb
+C:\DotNetApps\SpecialProjects\Academy\Academy.Domain\obj\Debug\Academy.Domain.csprojResolveAssemblyReference.cache
+C:\DotNetApps\SpecialProjects\Academy\Academy.Domain\obj\Debug\Academy.Domain.dll
+C:\DotNetApps\SpecialProjects\Academy\Academy.Domain\obj\Debug\Academy.Domain.pdb
