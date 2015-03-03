@@ -13,12 +13,12 @@ namespace Academy.DataAccess
 {
     public class DataContext : DbContext
     {
-        public DataContext() : base("Academy")
+        public DataContext() : base( "AcademyContext")
         {
             Database.SetInitializer(new DropCreateDatabaseIfModelChanges<DataContext>());
         }
 
-        public DbSet<Address> Addresses { get; set; }
+        //public DbSet<Address> Addresses { get; set; }
         public DbSet<ContactInfo> ContactInfos { get; set; }
         public DbSet<Course> Courses { get; set; }
         public DbSet<Telephone> Telephones { get; set; }
@@ -36,25 +36,23 @@ namespace Academy.DataAccess
                 .MapRightKey("InstructorId")
                 .ToTable("CourseInstructor"));
 
-            //modelBuilder.Entity<Course>()
-            //.HasMany(c => c.Enrollments).WithMany(i => i.Enrollments)
-            //.Map(t => t.MapLeftKey("EnrollmentId")
-            //.MapRightKey("StudentId")
-            //.ToTable("CourseStudent"));
-
-            //modelBuilder.Entity<Student>()
-            //.HasMany(c => c.Courses).WithMany(i => i.Students)
-            //.Map(t => t.MapLeftKey("StudentId")
-            //.MapRightKey("CourseId")
-            //.ToTable("CourseStudent"));
+            modelBuilder.Entity<Department>()
+            .HasMany(t => t.Instructors)
+            .WithRequired()
+            .HasForeignKey(u => u.DepartmentId);       
 
             //
             modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
 
-
-
             //
+            modelBuilder.Configurations.Add(new CourseMap());
+            modelBuilder.Configurations.Add(new TelephoneMap());
+            modelBuilder.Configurations.Add(new EmailMap());
+            modelBuilder.Configurations.Add(new DepartmentMap());
+            //modelBuilder.Configurations.Add(new EnrollmentMap());
+            modelBuilder.Configurations.Add(new InstructorMap());
             modelBuilder.Configurations.Add(new StudentMap());
+            
             //
             base.OnModelCreating(modelBuilder);
         }

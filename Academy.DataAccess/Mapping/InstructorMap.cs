@@ -15,7 +15,7 @@ namespace Academy.DataAccess.Mapping
         {
             ToTable("Instructor");
             HasKey(t => t.InstructorId);
-            Property(t => t.InstructorId).IsRequired().HasColumnName("InstructorId").HasDatabaseGeneratedOption(DatabaseGeneratedOption.None).HasColumnType("BIGINT");
+            Property(t => t.InstructorId).IsRequired().HasColumnName("InstructorId").HasDatabaseGeneratedOption(DatabaseGeneratedOption.None).HasColumnType("INT");
             HasRequired(t => t.Department);
             HasRequired(t => t.ContactInfo);
             Property(t => t.HireDate).IsRequired().HasColumnName("HireDate").HasColumnType("DateTime");

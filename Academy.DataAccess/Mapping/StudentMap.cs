@@ -15,7 +15,7 @@ namespace Academy.DataAccess.Mapping
         {
             ToTable("Student");
             HasKey(t =>t.StudentId);
-            Property(t =>t.StudentId).IsRequired().HasColumnName("StudentId").HasDatabaseGeneratedOption(DatabaseGeneratedOption.None).HasColumnType("BIGINT");
+            Property(t => t.StudentId).IsRequired().HasColumnName("StudentId").HasDatabaseGeneratedOption(DatabaseGeneratedOption.None).HasColumnType("INT");
 
             HasRequired(t => t.ContactInfo);
             Property(t =>t.FirstName).IsRequired().HasColumnName("FirstName").HasMaxLength(200).HasColumnType("NVARCHAR");

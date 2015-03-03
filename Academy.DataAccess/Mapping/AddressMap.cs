@@ -12,10 +12,10 @@ namespace Academy.DataAccess.Mapping
     {
         public AddressConfig()
         {
-            Property(t => t.Street).HasColumnName("Street").HasMaxLength(50);
-            Property(t => t.City).HasColumnName("City").HasMaxLength(50);
-            Property(t => t.State).HasColumnName("State").HasMaxLength(2);
-            Property(t => t.Zip).HasColumnName("Zip").HasMaxLength(10);
+            Property(t => t.Street).HasColumnName("Street").HasMaxLength(75).HasColumnType("NVARCHAR");
+            Property(t => t.City).HasColumnName("City").HasMaxLength(50).HasColumnType("NVARCHAR");
+            Property(t => t.State).HasColumnName("State").HasMaxLength(2).HasColumnType("NVARCHAR");
+            Property(t => t.Zip).HasColumnName("Zip").HasMaxLength(10).HasColumnType("NVARCHAR");
         }
     }
 }

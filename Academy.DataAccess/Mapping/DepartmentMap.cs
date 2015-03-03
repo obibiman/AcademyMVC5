@@ -15,7 +15,7 @@ namespace Academy.DataAccess.Mapping
         {
             ToTable("Department");
             HasKey(t => t.DepartmentId);
-            Property(t => t.DepartmentId).IsRequired().HasColumnName("DepartmentId").HasDatabaseGeneratedOption(DatabaseGeneratedOption.None).HasColumnType("BIGINT");
+            Property(t => t.DepartmentId).IsRequired().HasColumnName("DepartmentId").HasDatabaseGeneratedOption(DatabaseGeneratedOption.None).HasColumnType("INT");
             Property(t => t.DepartmentName).IsRequired().HasColumnName("DepartmentName").HasMaxLength(50).HasColumnType("NVARCHAR");
             Property(t => t.DeptAbbrev).IsRequired().HasColumnName("DeptAbbrev").HasMaxLength(4).HasColumnType("NVARCHAR");
             Property(t => t.ModifiedBy).IsOptional().HasColumnName("ModifiedBy").HasMaxLength(50).HasColumnType("NVARCHAR");

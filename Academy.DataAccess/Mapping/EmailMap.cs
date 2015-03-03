@@ -15,7 +15,7 @@ namespace Academy.DataAccess.Mapping
         {
             ToTable("Email");
             HasKey(t => t.EmailId);
-            Property(t => t.EmailId).IsRequired().HasColumnName("EmailId").HasDatabaseGeneratedOption(DatabaseGeneratedOption.None).HasColumnType("BIGINT");
+            Property(t => t.EmailId).IsRequired().HasColumnName("EmailId").HasDatabaseGeneratedOption(DatabaseGeneratedOption.None).HasColumnType("INT");
             Property(t => t.EmailAddress).IsRequired().HasColumnName("EmailAddress").HasMaxLength(100).HasColumnType("NVARCHAR");
         }
     } 

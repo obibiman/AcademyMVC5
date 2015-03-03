@@ -50,6 +50,7 @@
   <ItemGroup>
     <Compile Include="Database\DataContext.cs" />
     <Compile Include="Mapping\AddressMap.cs" />
+    <Compile Include="Mapping\CourseMap.cs" />
     <Compile Include="Mapping\DepartmentMap.cs" />
     <Compile Include="Mapping\EmailMap.cs" />
     <Compile Include="Mapping\InstructorMap.cs" />
