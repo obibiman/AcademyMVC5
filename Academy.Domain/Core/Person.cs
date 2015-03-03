@@ -11,5 +11,8 @@ namespace Academy.Domain.Core
         public string FirstName { get; set; }
         public string MiddleInitial { get; set; }
         public string LastName { get; set; }
+        public string NationalIdNumber { get; set; }
+        public bool Gender { get; set; }
+        public DateTime DateOfBirth { get; set; }   
     }
 }

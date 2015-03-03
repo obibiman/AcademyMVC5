@@ -18,8 +18,7 @@ namespace Academy.Domain.Core
         public DateTime EnrollmentDate { get; set; }
         public Address Address { get; set; }
         public int ContactInfoId { get; set; }
-        public virtual ContactInfo ContactInfo { get; set; }
-        public DateTime DateOfBirth { get; set; }   
+        public virtual ContactInfo ContactInfo { get; set; }       
         public virtual ICollection<Enrollment> Enrollments { get; set; }
         public string ModifiedBy { get; set; }
         public Nullable<DateTime> ModifiedDate { get; set; }
