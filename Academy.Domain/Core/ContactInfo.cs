@@ -8,6 +8,6 @@
         public int EmailId { get; set; }
         public virtual Email Email { get; set; }
         public int TelephoneId { get; set; }
-        public virtual Telephone Telephone { get; set; }  
+        public virtual Telephone Telephone { get; set; }
     }
 }

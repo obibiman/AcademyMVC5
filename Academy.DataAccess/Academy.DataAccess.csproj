@@ -49,7 +49,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Database\DataContext.cs" />
+    <Compile Include="Mapping\AddressMap.cs" />
+    <Compile Include="Mapping\DepartmentMap.cs" />
+    <Compile Include="Mapping\EmailMap.cs" />
+    <Compile Include="Mapping\InstructorMap.cs" />
     <Compile Include="Mapping\StudentMap.cs" />
+    <Compile Include="Mapping\TelephoneMap.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

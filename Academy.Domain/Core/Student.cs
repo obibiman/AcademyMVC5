@@ -8,10 +8,15 @@ namespace Academy.Domain.Core
 {
     public class Student : Person
     {
+        public Student()
+        {
+            Address = new Address();
+        }
         public int StudentId { get; set; }
         public string Major { get; set; }
         public int? Credit { get; set; }
         public DateTime EnrollmentDate { get; set; }
+        public Address Address { get; set; }
         public int ContactInfoId { get; set; }
         public virtual ContactInfo ContactInfo { get; set; }
         public DateTime DateOfBirth { get; set; }   
