@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 
 namespace Academy.DataAccess.Mapping
 {
-    public class AddressConfig : ComplexTypeConfiguration<Address>
+    public class AddressMap : ComplexTypeConfiguration<Address>
     {
-        public AddressConfig()
+        public AddressMap()
         {
             Property(t => t.Street).HasColumnName("Street").HasMaxLength(75).HasColumnType("NVARCHAR");
             Property(t => t.City).HasColumnName("City").HasMaxLength(50).HasColumnType("NVARCHAR");

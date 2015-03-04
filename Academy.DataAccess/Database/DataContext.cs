@@ -13,9 +13,9 @@ namespace Academy.DataAccess
 {
     public class DataContext : DbContext
     {
-        public DataContext() : base( "AcademyContext")
+        public DataContext() : base( "Name=AcademyContext")
         {
-            Database.SetInitializer(new DropCreateDatabaseIfModelChanges<DataContext>());
+            //Database.SetInitializer(new DropCreateDatabaseIfModelChanges<DataContext>());
         }
 
         //public DbSet<Address> Addresses { get; set; }
@@ -49,7 +49,7 @@ namespace Academy.DataAccess
             modelBuilder.Configurations.Add(new TelephoneMap());
             modelBuilder.Configurations.Add(new EmailMap());
             modelBuilder.Configurations.Add(new DepartmentMap());
-            //modelBuilder.Configurations.Add(new EnrollmentMap());
+            modelBuilder.Configurations.Add(new AddressMap());
             modelBuilder.Configurations.Add(new InstructorMap());
             modelBuilder.Configurations.Add(new StudentMap());
             

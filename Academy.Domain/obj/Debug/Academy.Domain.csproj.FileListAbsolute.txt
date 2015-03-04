@@ -6,3 +6,4 @@ C:\DotNetApps\SpecialProjects\Academy\Academy.Domain\bin\Debug\Academy.Domain.dl
 C:\DotNetApps\SpecialProjects\Academy\Academy.Domain\bin\Debug\Academy.Domain.pdb
 C:\DotNetApps\SpecialProjects\Academy\Academy.Domain\obj\Debug\Academy.Domain.dll
 C:\DotNetApps\SpecialProjects\Academy\Academy.Domain\obj\Debug\Academy.Domain.pdb
+C:\DotNetApps\SpecialProjects\Academy\Academy.Domain\obj\Debug\Academy.Domain.csprojResolveAssemblyReference.cache
